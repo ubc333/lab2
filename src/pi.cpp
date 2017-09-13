@@ -8,7 +8,7 @@ double estimate_pi(int nsamples) {
 
 }
 
-// generates a random sample and sets the value of `inside`
+// generates a random sample and sets the hits[idx]
 // to true if within the unit circle
 void pi_sampler(std::vector<bool>& hits, int idx) {
 
