@@ -49,7 +49,7 @@ double estimate_pi_multithread_naive(int nsamples) {
 }
 
 // count number of hits using nsamples, populates hits[idx]
-void pi_hits(std::vector<int> hits, int idx, int nsamples) {
+void pi_hits(std::vector<int>& hits, int idx, int nsamples) {
 
   // single instance of random engine and distribution
   static std::default_random_engine rnd;
