@@ -4,7 +4,7 @@
 
 // partitions elements low through high (inclusive)
 // around a pivot and returns the pivot index
-size_t partition(std::vector<int>& data, int low, int high) {
+int partition(std::vector<int>& data, int low, int high) {
   // your code here
 }
 
