@@ -9,6 +9,3 @@ target_link_libraries(quicksort Threads::Threads)    # link with threads library
 
 add_executable(pi src/pi.cpp)
 target_link_libraries(pi Threads::Threads)
-
-add_executable(integration src/integration.cpp)
-target_link_libraries(integration Threads::Threads)
